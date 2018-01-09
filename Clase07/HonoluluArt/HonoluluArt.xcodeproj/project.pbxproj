@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AEC60A1B8E56DE0055DDBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEC6091B8E56DE0055DDBC /* AppDelegate.swift */; };
+		82AEC60C1B8E56DE0055DDBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEC60B1B8E56DE0055DDBC /* ViewController.swift */; };
+		82AEC60F1B8E56DE0055DDBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AEC60D1B8E56DE0055DDBC /* Main.storyboard */; };
+		82AEC6111B8E56DE0055DDBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AEC6101B8E56DE0055DDBC /* Images.xcassets */; };
+		82AEC6141B8E56DE0055DDBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AEC6121B8E56DE0055DDBC /* LaunchScreen.xib */; };
+		82AEC6201B8E56DE0055DDBC /* HonoluluArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEC61F1B8E56DE0055DDBC /* HonoluluArtTests.swift */; };
+		82AEC62A1B8E5AE70055DDBC /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 82AEC6291B8E5AE70055DDBC /* PublicArt.json */; };
+		82AEC62C1B8E5AF40055DDBC /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEC62B1B8E5AF40055DDBC /* JSON.swift */; };
+		82AEC62E1B8E5CEB0055DDBC /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEC62D1B8E5CEB0055DDBC /* Artwork.swift */; };
+		82AEC6301B8E655F0055DDBC /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEC62F1B8E655F0055DDBC /* VCMapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AEC61A1B8E56DE0055DDBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AEC5FC1B8E56DE0055DDBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AEC6031B8E56DE0055DDBC;
+			remoteInfo = HonoluluArt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82AEC6041B8E56DE0055DDBC /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AEC6081B8E56DE0055DDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AEC6091B8E56DE0055DDBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82AEC60B1B8E56DE0055DDBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82AEC60E1B8E56DE0055DDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82AEC6101B8E56DE0055DDBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82AEC6131B8E56DE0055DDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82AEC6191B8E56DE0055DDBC /* HonoluluArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonoluluArtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AEC61E1B8E56DE0055DDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AEC61F1B8E56DE0055DDBC /* HonoluluArtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonoluluArtTests.swift; sourceTree = "<group>"; };
+		82AEC6291B8E5AE70055DDBC /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		82AEC62B1B8E5AF40055DDBC /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		82AEC62D1B8E5CEB0055DDBC /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		82AEC62F1B8E655F0055DDBC /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AEC6011B8E56DE0055DDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AEC6161B8E56DE0055DDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AEC5FB1B8E56DE0055DDBC = {
+			isa = PBXGroup;
+			children = (
+				82AEC6061B8E56DE0055DDBC /* HonoluluArt */,
+				82AEC61C1B8E56DE0055DDBC /* HonoluluArtTests */,
+				82AEC6051B8E56DE0055DDBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82AEC6051B8E56DE0055DDBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AEC6041B8E56DE0055DDBC /* HonoluluArt.app */,
+				82AEC6191B8E56DE0055DDBC /* HonoluluArtTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AEC6061B8E56DE0055DDBC /* HonoluluArt */ = {
+			isa = PBXGroup;
+			children = (
+				82AEC62F1B8E655F0055DDBC /* VCMapView.swift */,
+				82AEC62D1B8E5CEB0055DDBC /* Artwork.swift */,
+				82AEC62B1B8E5AF40055DDBC /* JSON.swift */,
+				82AEC6091B8E56DE0055DDBC /* AppDelegate.swift */,
+				82AEC60B1B8E56DE0055DDBC /* ViewController.swift */,
+				82AEC60D1B8E56DE0055DDBC /* Main.storyboard */,
+				82AEC6101B8E56DE0055DDBC /* Images.xcassets */,
+				82AEC6121B8E56DE0055DDBC /* LaunchScreen.xib */,
+				82AEC6071B8E56DE0055DDBC /* Supporting Files */,
+			);
+			path = HonoluluArt;
+			sourceTree = "<group>";
+		};
+		82AEC6071B8E56DE0055DDBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AEC6291B8E5AE70055DDBC /* PublicArt.json */,
+				82AEC6081B8E56DE0055DDBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82AEC61C1B8E56DE0055DDBC /* HonoluluArtTests */ = {
+			isa = PBXGroup;
+			children = (
+				82AEC61F1B8E56DE0055DDBC /* HonoluluArtTests.swift */,
+				82AEC61D1B8E56DE0055DDBC /* Supporting Files */,
+			);
+			path = HonoluluArtTests;
+			sourceTree = "<group>";
+		};
+		82AEC61D1B8E56DE0055DDBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AEC61E1B8E56DE0055DDBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AEC6031B8E56DE0055DDBC /* HonoluluArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AEC6231B8E56DE0055DDBC /* Build configuration list for PBXNativeTarget "HonoluluArt" */;
+			buildPhases = (
+				82AEC6001B8E56DE0055DDBC /* Sources */,
+				82AEC6011B8E56DE0055DDBC /* Frameworks */,
+				82AEC6021B8E56DE0055DDBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonoluluArt;
+			productName = HonoluluArt;
+			productReference = 82AEC6041B8E56DE0055DDBC /* HonoluluArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82AEC6181B8E56DE0055DDBC /* HonoluluArtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AEC6261B8E56DE0055DDBC /* Build configuration list for PBXNativeTarget "HonoluluArtTests" */;
+			buildPhases = (
+				82AEC6151B8E56DE0055DDBC /* Sources */,
+				82AEC6161B8E56DE0055DDBC /* Frameworks */,
+				82AEC6171B8E56DE0055DDBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AEC61B1B8E56DE0055DDBC /* PBXTargetDependency */,
+			);
+			name = HonoluluArtTests;
+			productName = HonoluluArtTests;
+			productReference = 82AEC6191B8E56DE0055DDBC /* HonoluluArtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AEC5FC1B8E56DE0055DDBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = MELI;
+				TargetAttributes = {
+					82AEC6031B8E56DE0055DDBC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					82AEC6181B8E56DE0055DDBC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 82AEC6031B8E56DE0055DDBC;
+					};
+				};
+			};
+			buildConfigurationList = 82AEC5FF1B8E56DE0055DDBC /* Build configuration list for PBXProject "HonoluluArt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82AEC5FB1B8E56DE0055DDBC;
+			productRefGroup = 82AEC6051B8E56DE0055DDBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AEC6031B8E56DE0055DDBC /* HonoluluArt */,
+				82AEC6181B8E56DE0055DDBC /* HonoluluArtTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AEC6021B8E56DE0055DDBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AEC62A1B8E5AE70055DDBC /* PublicArt.json in Resources */,
+				82AEC60F1B8E56DE0055DDBC /* Main.storyboard in Resources */,
+				82AEC6141B8E56DE0055DDBC /* LaunchScreen.xib in Resources */,
+				82AEC6111B8E56DE0055DDBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AEC6171B8E56DE0055DDBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AEC6001B8E56DE0055DDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AEC62C1B8E5AF40055DDBC /* JSON.swift in Sources */,
+				82AEC60C1B8E56DE0055DDBC /* ViewController.swift in Sources */,
+				82AEC6301B8E655F0055DDBC /* VCMapView.swift in Sources */,
+				82AEC62E1B8E5CEB0055DDBC /* Artwork.swift in Sources */,
+				82AEC60A1B8E56DE0055DDBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AEC6151B8E56DE0055DDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AEC6201B8E56DE0055DDBC /* HonoluluArtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AEC61B1B8E56DE0055DDBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AEC6031B8E56DE0055DDBC /* HonoluluArt */;
+			targetProxy = 82AEC61A1B8E56DE0055DDBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82AEC60D1B8E56DE0055DDBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AEC60E1B8E56DE0055DDBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82AEC6121B8E56DE0055DDBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AEC6131B8E56DE0055DDBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AEC6211B8E56DE0055DDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82AEC6221B8E56DE0055DDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82AEC6241B8E56DE0055DDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HonoluluArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82AEC6251B8E56DE0055DDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HonoluluArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82AEC6271B8E56DE0055DDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HonoluluArtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonoluluArt.app/HonoluluArt";
+			};
+			name = Debug;
+		};
+		82AEC6281B8E56DE0055DDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HonoluluArtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonoluluArt.app/HonoluluArt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AEC5FF1B8E56DE0055DDBC /* Build configuration list for PBXProject "HonoluluArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AEC6211B8E56DE0055DDBC /* Debug */,
+				82AEC6221B8E56DE0055DDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AEC6231B8E56DE0055DDBC /* Build configuration list for PBXNativeTarget "HonoluluArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AEC6241B8E56DE0055DDBC /* Debug */,
+				82AEC6251B8E56DE0055DDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82AEC6261B8E56DE0055DDBC /* Build configuration list for PBXNativeTarget "HonoluluArtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AEC6271B8E56DE0055DDBC /* Debug */,
+				82AEC6281B8E56DE0055DDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AEC5FC1B8E56DE0055DDBC /* Project object */;
+}
